@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ChatFlow Design System - Dark Slate + Cyan Theme */
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 30% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 10%;
+
+    --primary: 180 70% 45%;
+    --primary-foreground: 220 30% 10%;
+
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 30% 25%;
+
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 180 65% 50%;
+    --accent-foreground: 220 30% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 180 70% 45%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 220 20% 98%;
+    --sidebar-foreground: 220 20% 30%;
+    --sidebar-primary: 180 70% 45%;
+    --sidebar-primary-foreground: 220 30% 10%;
+    --sidebar-accent: 220 15% 94%;
+    --sidebar-accent-foreground: 220 20% 25%;
+    --sidebar-border: 220 15% 90%;
+    --sidebar-ring: 180 70% 45%;
+
+    /* Custom ChatFlow tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(180 70% 45%), hsl(200 80% 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(180 65% 50%), hsl(220 70% 60%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 25% 12%), hsl(220 30% 8%));
+    --shadow-glow: 0 0 30px hsl(180 70% 45% / 0.3);
+    --shadow-soft: 0 4px 20px hsl(220 30% 10% / 0.08);
+    --chat-bubble-own: 180 60% 95%;
+    --chat-bubble-other: 220 15% 96%;
+    --online-indicator: 145 65% 50%;
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 220 15% 95%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 220 15% 95%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 15% 95%;
+
+    --primary: 180 70% 50%;
+    --primary-foreground: 220 30% 8%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 220 15% 85%;
+
+    --muted: 220 20% 16%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 180 65% 55%;
+    --accent-foreground: 220 30% 8%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 180 70% 50%;
+
+    --sidebar-background: 220 25% 10%;
+    --sidebar-foreground: 220 15% 85%;
+    --sidebar-primary: 180 70% 50%;
+    --sidebar-primary-foreground: 220 30% 8%;
+    --sidebar-accent: 220 20% 16%;
+    --sidebar-accent-foreground: 220 15% 90%;
+    --sidebar-border: 220 20% 15%;
+    --sidebar-ring: 180 70% 50%;
+
+    /* Dark mode custom tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(180 70% 50%), hsl(200 80% 60%));
+    --gradient-accent: linear-gradient(135deg, hsl(180 65% 55%), hsl(220 70% 65%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 25% 12%), hsl(220 30% 6%));
+    --shadow-glow: 0 0 40px hsl(180 70% 50% / 0.25);
+    --shadow-soft: 0 4px 20px hsl(0 0% 0% / 0.3);
+    --chat-bubble-own: 180 50% 20%;
+    --chat-bubble-other: 220 20% 15%;
+    --online-indicator: 145 70% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .gradient-dark {
+    background: var(--gradient-dark);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .chat-bubble-own {
+    background-color: hsl(var(--chat-bubble-own));
+  }
+  
+  .chat-bubble-other {
+    background-color: hsl(var(--chat-bubble-other));
+  }
+  
+  .glass {
+    background: hsl(var(--card) / 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--border) / 0.5);
+  }
+  
+  .glass-dark {
+    background: hsl(220 25% 12% / 0.9);
+    backdrop-filter: blur(16px);
+  }
+  
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted)) transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}

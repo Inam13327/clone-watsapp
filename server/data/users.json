@@ -1,0 +1,59 @@
+[
+  {
+    "id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+    "email": "inam13327@gmail.com",
+    "username": "inam13327",
+    "display_name": "inam13327",
+    "password": "$2a$10$mhlsOgg8AwFDbTi3Sxj75enDxZRfpIf4h8.ofOguJrVWpRkEp9/LW",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=inam13327",
+    "created_at": "2026-02-02T14:54:02.163Z",
+    "last_seen": "2026-02-02T16:49:00.099Z"
+  },
+  {
+    "id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+    "email": "bilalilyas7330@gmail.com",
+    "username": "bilalawan7914",
+    "display_name": "bilalawan7914",
+    "password": "$2a$10$KPCG6ej/62B1zY5luZIiBuGxa0IWdiuxzCScak1wFSYyMx/ybxYAC",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=bilalawan7914",
+    "created_at": "2026-02-02T14:54:13.155Z",
+    "last_seen": "2026-02-02T16:41:19.261Z"
+  },
+  {
+    "id": "ab95592d-f623-4cb7-a93b-7b899764e50f",
+    "email": "bilalawan55677@gmail.com",
+    "username": "bilalawan1122",
+    "display_name": "bilalawan1122",
+    "password": "$2a$10$t8f8aW2yyu/otW2PiBI.Xuzj/cEKUuGH5mFpjedLzzFRAEm8v3YRe",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=bilalawan1122",
+    "created_at": "2026-02-02T14:55:33.650Z"
+  },
+  {
+    "id": "3a9204cc-21bc-4000-bfc9-131927616102",
+    "email": "ali@gmail.com",
+    "username": "ali",
+    "display_name": "ali",
+    "password": "$2a$10$7htfttSTIIpB8I55LLB/heKzHF.PeniS27uPGHJi.EyqnR2j/gVAm",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ali",
+    "created_at": "2026-02-02T14:57:53.366Z"
+  },
+  {
+    "id": "3ea7c904-4092-4b4e-943b-3a3535dc59c9",
+    "email": "khan@gmail.com",
+    "username": "khan",
+    "display_name": "khan",
+    "password": "$2a$10$SdzM0FEpzs8CsXjYBmw0Q.9KvbLHAJdePck/dZUizCg8Kb1uZLQd.",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=khan",
+    "created_at": "2026-02-02T15:16:21.371Z"
+  },
+  {
+    "id": "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+    "email": "amish@gmail.com",
+    "username": "amish",
+    "display_name": "amish",
+    "password": "$2a$10$A.xdl8hkFSyQfGX/iLA0geeXOmVn5TnCJGvRnugU3EbF06KmB3lRm",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=amish",
+    "created_at": "2026-02-02T16:35:40.657Z",
+    "last_seen": "2026-02-02T16:49:59.018Z"
+  }
+]

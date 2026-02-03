@@ -1,0 +1,375 @@
+[
+  {
+    "id": "489b7ded-911a-40f5-aa68-c4ce96a59279",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "3ea7c904-4092-4b4e-943b-3a3535dc59c9",
+      "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5"
+    ],
+    "messages": [
+      {
+        "id": "56905f7a-74cf-40e0-8a2d-2c12ff44b387",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "Hello",
+        "created_at": "2026-02-02T15:50:13.971Z"
+      }
+    ],
+    "created_at": "2026-02-02T15:18:37.315Z",
+    "updated_at": "2026-02-02T15:18:37.315Z"
+  },
+  {
+    "id": "2921de80-f483-48eb-ad90-a3b7b4a7520d",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "3ea7c904-4092-4b4e-943b-3a3535dc59c9",
+      "ab95592d-f623-4cb7-a93b-7b899764e50f"
+    ],
+    "messages": [
+      {
+        "id": "e1cda4f4-5679-4ecf-8ee4-f2d18098ad25",
+        "sender_id": "3ea7c904-4092-4b4e-943b-3a3535dc59c9",
+        "content": "hi",
+        "created_at": "2026-02-02T16:02:15.474Z"
+      }
+    ],
+    "created_at": "2026-02-02T15:18:48.506Z",
+    "updated_at": "2026-02-02T15:18:48.506Z"
+  },
+  {
+    "id": "479701fe-49e8-4941-9be2-b39c8f7106c2",
+    "type": "group",
+    "name": "first",
+    "participants": [
+      "3ea7c904-4092-4b4e-943b-3a3535dc59c9",
+      "76d43aca-e6a6-497f-9749-fa3b08093e38",
+      "ab95592d-f623-4cb7-a93b-7b899764e50f"
+    ],
+    "messages": [
+      {
+        "id": "b80ae02b-4e10-4399-bb59-e89cfddc7145",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "hh",
+        "created_at": "2026-02-02T16:10:37.370Z"
+      }
+    ],
+    "created_at": "2026-02-02T15:19:22.161Z",
+    "updated_at": "2026-02-02T15:19:22.161Z"
+  },
+  {
+    "id": "e2452796-9f10-4afd-bd49-35306664465a",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "3ea7c904-4092-4b4e-943b-3a3535dc59c9",
+      "3a9204cc-21bc-4000-bfc9-131927616102"
+    ],
+    "messages": [],
+    "created_at": "2026-02-02T15:22:23.336Z",
+    "updated_at": "2026-02-02T15:22:23.336Z"
+  },
+  {
+    "id": "6e00723c-ab31-4d80-8dfe-ec8975f232a1",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "3a9204cc-21bc-4000-bfc9-131927616102",
+      "ab95592d-f623-4cb7-a93b-7b899764e50f"
+    ],
+    "messages": [],
+    "created_at": "2026-02-02T15:38:23.381Z",
+    "updated_at": "2026-02-02T15:38:23.381Z"
+  },
+  {
+    "id": "c4499565-be97-465e-bb33-4be2e4c33e11",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "76d43aca-e6a6-497f-9749-fa3b08093e38",
+      "ab95592d-f623-4cb7-a93b-7b899764e50f"
+    ],
+    "messages": [
+      {
+        "id": "3528e9a8-cedf-45e8-851b-a2b23ddc802f",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "hii",
+        "created_at": "2026-02-02T16:07:09.005Z"
+      },
+      {
+        "id": "f73a92c7-6d14-4a5a-a430-7ba4b75cd6f6",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "hii",
+        "created_at": "2026-02-02T16:09:20.217Z"
+      }
+    ],
+    "created_at": "2026-02-02T15:39:36.670Z",
+    "updated_at": "2026-02-02T15:39:36.670Z"
+  },
+  {
+    "id": "15ee7a22-77e0-42f4-bc6c-e5e95a71d7bb",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+      "ab95592d-f623-4cb7-a93b-7b899764e50f"
+    ],
+    "messages": [
+      {
+        "id": "d9acde0f-895e-420b-8dc3-1657bcbb4c80",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "hi",
+        "created_at": "2026-02-02T15:49:06.120Z"
+      },
+      {
+        "id": "63e92994-a4a0-4dd4-a450-3c633bd50286",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T15:51:07.469Z"
+      },
+      {
+        "id": "df4ec137-cc97-4ce6-9a6c-d07de49568ad",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T15:51:15.673Z"
+      }
+    ],
+    "created_at": "2026-02-02T15:44:34.902Z",
+    "updated_at": "2026-02-02T15:44:34.902Z"
+  },
+  {
+    "id": "085674c1-4be6-4a8b-a6fa-60a718e32974",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+      "76d43aca-e6a6-497f-9749-fa3b08093e38"
+    ],
+    "messages": [
+      {
+        "id": "3907edbe-0366-43dd-9392-8ad1e60d2c53",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "Hh",
+        "created_at": "2026-02-02T15:50:45.333Z",
+        "status": "read"
+      },
+      {
+        "id": "de51933b-b5fb-4163-a5c7-97eda6da23ee",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "Gandu",
+        "created_at": "2026-02-02T16:09:56.026Z",
+        "status": "read"
+      },
+      {
+        "id": "9d1c8fb5-6d71-440f-ab26-c073982d76cf",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "aga bary o",
+        "created_at": "2026-02-02T16:10:59.778Z",
+        "status": "read"
+      },
+      {
+        "id": "c2ac8c57-77ff-443b-97f5-9788cc665b8e",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "Lun jeya",
+        "created_at": "2026-02-02T16:11:19.900Z",
+        "status": "read"
+      },
+      {
+        "id": "66e65306-f2fb-4374-bd87-e74cf9639a54",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "Loru",
+        "created_at": "2026-02-02T16:11:40.257Z",
+        "status": "read"
+      },
+      {
+        "id": "8571af1f-364a-4bce-b5cd-366453caeb4d",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "🦾🦶",
+        "created_at": "2026-02-02T16:11:51.946Z",
+        "status": "read"
+      },
+      {
+        "id": "a2a15a82-b6f6-4076-acb0-769e779f08ea",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:12:06.567Z",
+        "status": "read"
+      },
+      {
+        "id": "f6c3ef93-ff6d-454b-9ae1-d5f95302a9b2",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:12:30.937Z",
+        "status": "read"
+      },
+      {
+        "id": "8eb96a8d-dee0-4fa4-8259-17bb47aa388b",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "🎥 Video call started",
+        "created_at": "2026-02-02T16:12:48.325Z",
+        "status": "read"
+      },
+      {
+        "id": "62ee68db-4dd0-4114-97cb-eaf5331f7a1e",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:12:55.349Z",
+        "status": "read"
+      },
+      {
+        "id": "adf2780d-771b-4e2c-88c2-d6866ed609f4",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "jj",
+        "created_at": "2026-02-02T16:13:48.037Z",
+        "status": "read"
+      },
+      {
+        "id": "f5e2df3c-0ad5-468c-a204-b13e2829f381",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:21:06.707Z",
+        "status": "read"
+      },
+      {
+        "id": "03c1b077-aa44-4653-9e88-13daed88bf58",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:23:49.169Z",
+        "status": "read"
+      },
+      {
+        "id": "18c14a7a-58ae-4222-b1bf-bbb0637cf034",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:24:17.778Z",
+        "status": "read"
+      },
+      {
+        "id": "b9dc8195-9b70-431d-9322-acb41518953f",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:25:13.083Z",
+        "status": "read"
+      },
+      {
+        "id": "3b8f6e7e-21ff-4ccc-b3f7-2d973f03818a",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "gand ka ilaaj he lekin gandu ka nai",
+        "created_at": "2026-02-02T16:28:13.388Z",
+        "status": "read"
+      },
+      {
+        "id": "8aaf0c34-fdff-463e-b7a5-faee6bed8ee1",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:28:19.473Z",
+        "status": "read"
+      },
+      {
+        "id": "26d09401-c0ac-4b30-9f91-3f9e8807e4a7",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:28:36.746Z",
+        "status": "read"
+      },
+      {
+        "id": "97ee864c-efaa-4306-8419-2822bf9ea65d",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:29:26.751Z",
+        "status": "read"
+      },
+      {
+        "id": "b6c1ab81-0173-4b2e-a2c0-271250d1781d",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:30:27.468Z",
+        "status": "read"
+      },
+      {
+        "id": "ca45654a-8d28-47ba-aaa6-cd8c9d2614cf",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:33:01.237Z",
+        "status": "read"
+      }
+    ],
+    "created_at": "2026-02-02T15:50:36.408Z",
+    "updated_at": "2026-02-02T15:50:36.408Z"
+  },
+  {
+    "id": "ae0ed6bb-374b-45fe-894a-d0d966690e46",
+    "type": "group",
+    "name": "lllll",
+    "participants": [
+      "76d43aca-e6a6-497f-9749-fa3b08093e38",
+      "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5"
+    ],
+    "messages": [
+      {
+        "id": "1506542e-248f-44c3-a5f8-2cc300ef0fcd",
+        "sender_id": "76d43aca-e6a6-497f-9749-fa3b08093e38",
+        "content": "ii",
+        "created_at": "2026-02-02T16:14:09.972Z",
+        "status": "read"
+      },
+      {
+        "id": "92c2a13c-ae2b-4dda-a1de-618c97d2805a",
+        "sender_id": "dbf7fcda-fd7e-4aae-a0ca-efafb81fbbe5",
+        "content": "Ghh",
+        "created_at": "2026-02-02T16:14:30.357Z",
+        "status": "read"
+      }
+    ],
+    "created_at": "2026-02-02T16:14:06.309Z",
+    "updated_at": "2026-02-02T16:14:06.309Z"
+  },
+  {
+    "id": "71230c29-17a6-4484-b925-f71992ea8a7a",
+    "type": "direct",
+    "name": null,
+    "participants": [
+      "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+      "76d43aca-e6a6-497f-9749-fa3b08093e38"
+    ],
+    "messages": [
+      {
+        "id": "afbb03f7-e6c9-4d5c-a338-82c42d9072eb",
+        "sender_id": "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+        "content": "hii",
+        "created_at": "2026-02-02T16:35:52.107Z",
+        "status": "read"
+      },
+      {
+        "id": "9045d266-3d90-4084-aed1-54a623f0186c",
+        "sender_id": "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:36:06.758Z",
+        "status": "read"
+      },
+      {
+        "id": "eba34e79-00e9-4bba-89c9-e7ee56008fe6",
+        "sender_id": "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:36:12.511Z",
+        "status": "read"
+      },
+      {
+        "id": "da8cc92d-3654-4542-9d97-8ba2621cad42",
+        "sender_id": "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:36:13.506Z",
+        "status": "read"
+      },
+      {
+        "id": "b87e473e-2c85-4f95-b9a1-91a5fde68275",
+        "sender_id": "a92011ad-6298-4ec7-bba4-6c9ec31d9ebc",
+        "content": "📞 Voice call started",
+        "created_at": "2026-02-02T16:36:43.466Z",
+        "status": "read"
+      }
+    ],
+    "created_at": "2026-02-02T16:35:49.514Z",
+    "updated_at": "2026-02-02T16:35:49.514Z"
+  }
+]
