@@ -6,9 +6,10 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const app = express();
-const PORT = 5000;
+const PORT = 4000;
 const SECRET_KEY = 'your-secret-key-chatflow'; // In production, use env var
 
 // Manual CORS Middleware for maximum compatibility on local network
@@ -575,24 +576,20 @@ app.post('/api/chats/:chatId/join', (req, res) => {
 app.post('/api/ai', async (req, res) => {
     try {
         const { message } = req.body;
-        // Simple echo or rule-based response for now
-        // In a real app, you'd call OpenAI or another LLM here
         
-        const responses = [
-            "That's interesting! Tell me more.",
-            "I'm a local AI running on Node.js. How can I help?",
-            "I've received your message: " + message,
-            "I am currently in development mode."
-        ];
+        // Initialize Gemini
+        // NOTE: In production, use process.env.GEMINI_API_KEY
+        const genAI = new GoogleGenerativeAI("AIzaSyCKAp_w3HPv_mGlb-uG7qg8lVyUDsICnTc");
+        const model = genAI.getGenerativeModel({ model: "gemini-flash-latest"});
+
+        const result = await model.generateContent(message);
+        const response = await result.response;
+        const text = response.text();
         
-        const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-        
-        // Simulate delay
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        res.json({ content: randomResponse });
+        res.json({ content: text });
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        console.error("AI Error:", error);
+        res.status(500).json({ error: "Failed to generate AI response: " + error.message });
     }
 });
 
